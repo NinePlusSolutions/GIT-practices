@@ -134,6 +134,10 @@ public class Appearance {
         linkTypeFace = null;
         textQuoteTypeFace = null;
 
+        quoteBackgroundColor = null;
+        
+        quoteSignTopPadding = null;
+
         textColor = null;
         linkColor = null;
         textQuoteColor = null;
@@ -148,14 +152,29 @@ public class Appearance {
                 5,
                 res.getDisplayMetrics());
 
-        quoteSignRightPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+
+                quoteSignLeftPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
                 5,
                 res.getDisplayMetrics());
 
-        quoteSignTopPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
-                -5,
+
+                quoteSignLeftPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
                 res.getDisplayMetrics());
 
+
+                quoteSignLeftPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
+                res.getDisplayMetrics());
+
+
+        quoteSignLeftPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
+                res.getDisplayMetrics());
+
+        quoteSignRightPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
+                res.getDisplayMetrics());
 
         textFontSize = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
                 15,
