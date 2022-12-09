@@ -142,9 +142,35 @@ public class Appearance {
         linkColor = null;
         textQuoteColor = null;
 
+        linkColor1 = null;
+        textQuoteColor1 = null;
+        textQuoteColor11 = null;
+
+        linkColor1 = null;
+        textQuoteColor1 = null;
+        textQuoteColor11 = null;
+        
+        
+        //test gop commit
+        quoteSign = res.getDrawable(R.drawable.quote);
+
+        quoteSign = res.getDrawable(R.drawable.quote);
+
+        // Day la code moi them
+
         quoteBackgroundColor = Color.TRANSPARENT;
 
         final Resources res = applicationContext.getResources();
+
+        quoteSign = res.getDrawable(R.drawable.quotation);
+
+        quoteSign = res.getDrawable(R.drawable.quote);
+
+        quoteSign = res.getDrawable(R.drawable.quote);
+
+        quoteSign = res.getDrawable(R.drawable.quote);
+
+        quoteSign = res.getDrawable(R.drawable.quote);
 
         quoteSign = res.getDrawable(R.drawable.quote);
 
