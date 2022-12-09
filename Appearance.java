@@ -156,13 +156,6 @@ public class Appearance {
                 -5,
                 res.getDisplayMetrics());
 
-
-        textFontSize = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
-                15,
-                res.getDisplayMetrics());
-
-        textQuoteFontSize = linkFontSize = textFontSize;
-
     }
 
     public void setTextTypeFace(Typeface textTypeFace){
