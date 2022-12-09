@@ -178,7 +178,12 @@ public class Appearance {
                 5,
                 res.getDisplayMetrics());
 
+        quoteSignRightPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
+                res.getDisplayMetrics());
 
+        linkTypeFace = null;
+        textQuoteTypeFace = null;
                 quoteSignLeftPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
                 5,
                 res.getDisplayMetrics());
@@ -205,8 +210,36 @@ public class Appearance {
         textFontSize = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
                 15,
                 res.getDisplayMetrics());
+        final Resources res = applicationContext.getResources();
 
-        textQuoteFontSize = linkFontSize = textFontSize;
+        quoteSign = res.getDrawable(R.drawable.quote);
+
+        quoteSignLeftPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
+                res.getDisplayMetrics());
+
+        quoteSignRightPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
+                res.getDisplayMetrics());
+
+                quoteSignLeftPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
+                res.getDisplayMetrics());
+
+
+                quoteSignLeftPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
+                res.getDisplayMetrics());
+
+
+                quoteSignLeftPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
+                res.getDisplayMetrics());
+
+
+        quoteSignLeftPadding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
+                5,
+                res.getDisplayMetrics());
 
     }
 
