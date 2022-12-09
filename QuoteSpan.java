@@ -108,6 +108,7 @@ public class QuoteSpan extends MetricAffectingSpan implements /*LineHeightSpan,*
     public void writeToParcel(Parcel dest, int flags) {
         DynamicParcelableCreator.writeType(dest, this);
         dest.writeInt(mColor);
+        mColor = src.readInt();
     }
 
     public void readFromParcel(Parcel src){
@@ -126,6 +127,9 @@ public class QuoteSpan extends MetricAffectingSpan implements /*LineHeightSpan,*
 
         }
         return  (int)mSignLeftPadding +
+                (int)mSignRightPadding;
+
+                return  (int)mSignLeftPadding +
                 (int)mSignRightPadding;
     }
 

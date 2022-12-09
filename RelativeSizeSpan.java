@@ -47,10 +47,6 @@ public class RelativeSizeSpan extends MetricAffectingSpan implements RichTextSpa
 
     }
 
-    public RelativeSizeSpan(float proportion) {
-        mProportion = proportion;
-    }
-
     public RelativeSizeSpan(Parcel src) {
       readFromParcel(src);
     }
@@ -63,10 +59,6 @@ public class RelativeSizeSpan extends MetricAffectingSpan implements RichTextSpa
     public void writeToParcel(Parcel dest, int flags) {
         DynamicParcelableCreator.writeType(dest, this);
         dest.writeFloat(mProportion);
-    }
-
-    public float getSizeChange() {
-        return mProportion;
     }
 
     @Override
