@@ -167,6 +167,7 @@ public class Appearance {
 
     public void setTextTypeFace(Typeface textTypeFace){
         this.textTypeFace = textTypeFace;
+        
     }
 
     public void setTextFontSize(float size){
@@ -180,15 +181,6 @@ public class Appearance {
     public void setTextColor(int color){
         this.textColor = color;
     }
-
-    public void setLinkColor(int linkColor){
-        this.linkColor = linkColor;
-    }
-
-    public void setLinkFontSize(int size){
-        linkFontSize = size;
-    }
-
 
     public final TextPaint textPaint(TextPaint input){
 
@@ -256,10 +248,6 @@ public class Appearance {
 
     public void setQuoteSignLeftPadding(float quoteSignLeftPadding) {
         this.quoteSignLeftPadding = quoteSignLeftPadding;
-    }
-
-    public float getQuoteSignRightPadding() {
-        return quoteSignRightPadding;
     }
 
     public void setQuoteSignRightPadding(float quoteSignRightPadding) {
