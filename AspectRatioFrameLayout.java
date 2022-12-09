@@ -49,19 +49,6 @@ public class AspectRatioFrameLayout extends FrameLayout {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 
-
-    public void setRatio(int width, int height){
-        setRatio((double) width / (double)height);
-    }
-
-    public void setRatio(double scalingFactor){
-        if(mRatio != scalingFactor){
-            mRatio = scalingFactor;
-            forceLayout();
-            requestLayout();
-        }
-    }
-
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         if(mRatio.isNaN()){
